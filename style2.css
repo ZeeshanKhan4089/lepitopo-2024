@@ -1,0 +1,79 @@
+body{
+    background-color: #06060f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.pass,.name{
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 230px;
+    transition: 0.3s all;
+    color: aliceblue;
+    border-bottom: 2px solid #ff002b;
+}
+
+#haddings{
+    font-family: sans-serif;
+    position: relative;
+    right: 235px;
+    font-size: 13px;
+    bottom: 15px;
+    color: #ff002b;
+}
+
+div{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+form{
+    border: solid 2px#4d131d;
+    box-shadow: 0 0 10px #751a29b0;
+}
+
+.chack{
+    size: 5px;
+}
+
+label{
+    color: aliceblue;
+    font-size: 10px;
+    margin: 0;
+}
+
+#link{
+    color: aliceblue;
+    font-size: 10px;
+    margin-left: 100px;
+
+}
+
+#btn{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px ;
+    border: none;
+    background-color:#ad0b26;
+    color: aliceblue;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+#btn:hover{
+   background-color: #ff002b;
+   box-shadow:0 0 20px #ff002bfd;
+   /* border: solid 2px #ff002b; */
+
+}
