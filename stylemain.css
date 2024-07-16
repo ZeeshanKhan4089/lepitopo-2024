@@ -19,6 +19,9 @@ header{
     text-shadow: 0 0 10px #ff002b98;
     font-family: fantasy;
 }
+sup{
+    font-size:smaller;
+}
 
 nav{
     display: flex;
